@@ -1,11 +1,11 @@
 <!--
 		Invalid certificate:
+			ftsafe.com.cn (unable to get local issuer certificate)
 			appdemo.ftsafe.com (unable to get local issuer certificate)
 			cn.ftsafe.com (unable to get local issuer certificate)
 -->
 <ruleset name="ftsafe.com">
 	<target host="ftsafe.com" />
-	<target host="ftsafe.com.cn" />
 	<target host="www.ftsafe.com" />
 	<target host="demo.ftsafe.com" />
 	<target host="download.ftsafe.com" />
