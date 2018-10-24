@@ -1,0 +1,18 @@
+<ruleset name="SEPTA">
+	<target host="septa.org" />
+	<target host="www.septa.org" />
+	<target host="app.septa.org" />
+	<target host="realtime.septa.org" />
+	<target host="trainview.septa.org" />
+
+	<target host="iseptaphilly.com" />
+	<target host="www.iseptaphilly.com" />
+
+	<target host="septakey.org" />
+	<target host="www.septakey.org" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:"
+			to="https:" />
+</ruleset>
